@@ -51,7 +51,7 @@ Version|Date|Comments
 
 ### Add the part
 
-Once the solution is installed in the app catalog and the app has been added to the site, you should see it available to a page the webpart listaDevs.
+Once the solution is installed in the app catalog and the app has been added to the site, you should see it available to a page the webpart tabPalestras.
 
 
 
