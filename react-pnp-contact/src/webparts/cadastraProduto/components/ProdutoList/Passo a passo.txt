@@ -1,0 +1,36 @@
+/*criar nova webpart cadastraProduto*/
+- abra o node e digite na pasta raiz do projeto, digite o comando abaixo e aperte enter
+yo @microsoft/sharepoint
+
+
+/*instalar essas referencias*/
+
+npm install --save react-bs-datatable
+npm install --save moment
+npm install --save bootstrap-4-react
+npm install --save-dev @fortawesome/fontawesome-free
+npm install url-loader@2.2.0 --save-dev
+
+/*atualizar gulpfile.js com esse codigo*/
+
+"use strict";
+
+const gulp = require("gulp");
+const build = require("@microsoft/sp-build-web");
+build.addSuppression(
+  `Warning - [sass] The local CSS class 'ms-Grid' is not camelCase and will not be type-safe.`
+);
+build.configureWebpack.mergeConfig({
+  additionalConfiguration: generatedConfiguration => {
+    generatedConfiguration.module.rules.push({
+      test: /\.woff2(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+      use: {
+        loader: "url-loader", query: { limit: 10000, mimetype: 'application/font-woff2'}
+      }
+    });
+    return generatedConfiguration;
+  }
+});
+build.initialize(gulp);
+
+/* fim atualizar gulpfile.js com esse codigo*/

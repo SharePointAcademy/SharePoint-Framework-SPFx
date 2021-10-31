@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cadastra-usuario-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastraUsuario/CadastraUsuarioWebPart.js",
+          "manifest": "./src/webparts/cadastraUsuario/CadastraUsuarioWebPart.manifest.json"
+        }
+      ]
+    },
+    "lista-contatos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listaContatos/ListaContatosWebPart.js",
+          "manifest": "./src/webparts/listaContatos/ListaContatosWebPart.manifest.json"
+        }
+      ]
+    },
+    "cadastra-produto-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastraProduto/CadastraProdutoWebPart.js",
+          "manifest": "./src/webparts/cadastraProduto/CadastraProdutoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CadastraUsuarioWebPartStrings": "lib/webparts/cadastraUsuario/loc/{locale}.js",
+    "ListaContatosWebPartStrings": "lib/webparts/listaContatos/loc/{locale}.js",
+    "CadastraProdutoWebPartStrings": "lib/webparts/cadastraProduto/loc/{locale}.js"
+  }
+}
