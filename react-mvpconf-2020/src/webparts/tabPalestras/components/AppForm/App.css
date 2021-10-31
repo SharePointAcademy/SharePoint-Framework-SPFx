@@ -1,0 +1,37 @@
+#app{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+#app main {
+  margin-left: 30px;
+}
+
+main ul li{
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.palestrante{
+  font-weight: bold;
+}
+
+@media (max-width: 1000px)
+{
+  #app {
+      flex-direction: column;
+  }
+
+  #app main {
+      margin-left: 0;
+      margin-top: 30px;
+  }
+
+  #app aside {
+      width: 100%;
+  }
+}

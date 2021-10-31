@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tab-palestras-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tabPalestras/TabPalestrasWebPart.js",
+          "manifest": "./src/webparts/tabPalestras/TabPalestrasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TabPalestrasWebPartStrings": "lib/webparts/tabPalestras/loc/{locale}.js"
+  }
+}
