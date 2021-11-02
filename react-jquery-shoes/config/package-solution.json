@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-sample-1-client-side-solution",
+    "id": "b6ae65ac-2282-4b2f-9025-15e8ba056127",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/react-sample-1.sppkg"
+  }
+}

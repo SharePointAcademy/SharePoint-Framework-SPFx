@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "comunicados-client-side-solution",
+    "id": "95310e94-6367-4de4-8dae-2edd55a4a1d0",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/comunicados.sppkg"
+  }
+}

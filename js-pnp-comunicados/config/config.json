@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cadastra-comunicados-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastraComunicados/CadastraComunicadosWebPart.js",
+          "manifest": "./src/webparts/cadastraComunicados/CadastraComunicadosWebPart.manifest.json"
+        }
+      ]
+    },
+    "lista-comunicados-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listaComunicados/ListaComunicadosWebPart.js",
+          "manifest": "./src/webparts/listaComunicados/ListaComunicadosWebPart.manifest.json"
+        }
+      ]
+    },
+    "adm-comunicados-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/admComunicados/AdmComunicadosWebPart.js",
+          "manifest": "./src/webparts/admComunicados/AdmComunicadosWebPart.manifest.json"
+        }
+      ]
+    },
+    "apaga-comunicado-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/apagaComunicado/ApagaComunicadoWebPart.js",
+          "manifest": "./src/webparts/apagaComunicado/ApagaComunicadoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-3.1.0.min.js"
+  },
+  "localizedResources": {
+    "CadastraComunicadosWebPartStrings": "lib/webparts/cadastraComunicados/loc/{locale}.js",
+    "ListaComunicadosWebPartStrings": "lib/webparts/listaComunicados/loc/{locale}.js",
+    "AdmComunicadosWebPartStrings": "lib/webparts/admComunicados/loc/{locale}.js",
+    "ApagaComunicadoWebPartStrings": "lib/webparts/apagaComunicado/loc/{locale}.js"
+  }
+}
