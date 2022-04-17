@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "orders-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/orders/OrdersWebPart.js",
+          "manifest": "./src/webparts/orders/OrdersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OrdersWebPartStrings": "lib/webparts/orders/loc/{locale}.js"
+  }
+}
