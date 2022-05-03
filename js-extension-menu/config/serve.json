@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://solucoessa.sharepoint.com/sites/SharePointAcademy/SitePages/Home.aspx",
+      "customActions": {
+        "99560eac-c2a5-43cd-847d-68e59748a447": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "myCustomMenu": {
+      "pageUrl": "https://solucoessa.sharepoint.com/sites/SharePointAcademy/SitePages/Home.aspx",
+      "customActions": {
+        "99560eac-c2a5-43cd-847d-68e59748a447": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
