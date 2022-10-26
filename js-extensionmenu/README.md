@@ -2,7 +2,8 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Vamos aprender a criar um menu e um rodapé em sites modernos do SharePoint, além disso vou motrar como usar modais para exibir notificações.
+Quer conhecer o meu curso sobre SPFX [clique aqui](https://www.udemy.com/course/desenvolvendo-para-sharepoint-com-spfx/?referralCode=26879FEB3B350B408792), quer cumpom de desconto me chama no linkedin no privado.
 
 [picture of the solution in action, if possible]
 
