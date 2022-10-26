@@ -1,8 +1,0 @@
-- Depois de criar o projeto executar o comando gulp trust-dev-cert para resolver o problema
-que pode ocorrer ao abrir a página com essa mensagem:
-
-Error loading debug script. Ensure the server is running and the "debugManifestsFile" parameter URL is correct.
-
-Link do post no blog
-https://sharepointacademy.wordpress.com/2022/05/03/error-spfx-extension-error-loading-debug-manifests-debugmanifestsfile/
-
