@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://seutenant.sharepoint.com/sites/seusite/SitePages/Home.aspx",
+      "customActions": {
+        "d7283d6a-f6df-4a05-9dab-f984fac03d63": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "myCustomMenu": {
+      "pageUrl": "https://seutenant.sharepoint.com/sites/seusite/SitePages/Home.aspx",
+      "customActions": {
+        "d7283d6a-f6df-4a05-9dab-f984fac03d63": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
