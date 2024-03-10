@@ -1,6 +1,6 @@
 ## js-provision
 
-This is where you include your WebPart documentation.
+Exemplo para provisionar listas através da webpart.
 
 ### Building the code
 
